@@ -6,11 +6,17 @@ function addItem (item) {
     basket.push("item")
     return true
 }
+addItem(Apple);
+addItem(Pumpkin);
+addItem(Gord);
+
 
 function listItems (basket) {
     for (let i = 0; i < basket.length; i++) 
     console.log(basket(i))
 }
+
+console.log('These are the items weve collected so far ' + listItems);
 //reference --------------------------------------
 // function displayArrayItems(array) {
 //     console.log(array);
@@ -28,7 +34,7 @@ function empty (basket) {
     basket.length = 0;
 }
 
-
+console.log('Next we will dump our basket into the car '+ empty);
 //reference --------------------------------------
 
 // function deleteArrayItems(array) {
